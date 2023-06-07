@@ -37,13 +37,13 @@
   </a>
 </p>
 
-<p align="center">An arctic, north-bluish clean and elegant <a href="https://tmux.github.io" target="_blank">tmux</a> color theme.</p>
+<p align="center">An arctic, north-bluish clean and elegant <a href="https://tmux.github.io" target="_blank">tmux</a> color theme WITH pomodoro and battery support.</p>
 
 <p align="center">Designed for a fluent and clear workflow based on the <a href="https://www.nordtheme.com" target="_blank">Nord</a> color palette.</p>
 
 <p align="center">
   <a href="https://www.nordtheme.com/ports/tmux" target="_blank">
-    <img src="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/tmux/overview.png"/>
+    <img src="screen.png"/>
   </a>
 </p>
 
@@ -53,18 +53,22 @@ Visit the [official website][nord-home] to learn all about the [fluidly merging 
 
 Learn about the [installation and activation][nord-docs-home-install], how to [configure][nord-docs-home-config] the theme and [supported plugins][nord-docs-home-plugins] from the [official documentations][nord-docs-home].
 
+### Dependencies
+
+This fork provide the support for [tmux-battery](https://github.com/tmux-plugins/tmux-battery) and [tmux-pomodoro-plusplus](https://github.com/olimorris/tmux-pomodoro-plus).
+
 ### Quick Start
 
 Thanks to existing plugin managers for tmux, Nord tmux can be installed for all platforms in a uniform way within a few lines of codes. The recommended manager is [tpm][gh-tmux-plugins/tpm], but any other manager like [tundle][gh-javier-lopez/tundle] can also be used.
 
 To automatically download and activate Nord tmux, follow the install instructions for [tpm][gh-tmux-plugins/tpm] and
 
-1. add `set -g @plugin "nordtheme/tmux"` to your [`tmux.conf`][tmux-man-tmux.conf], by default `.tmux.conf` located in your [home directory][wiki-home_dir]
+1. add `set -g @plugin "wabri/tmux-nord-plusplus"` to your [`tmux.conf`][tmux-man-tmux.conf], by default `.tmux.conf` located in your [home directory][wiki-home_dir]
 2. press the default key binding `prefix` + <kbd>I</kbd> to fetch- and install the plugin
 
 <p align="center">
   <picture>
-    <img src="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/tmux/installation-tpm.png" />
+    <img src="screen2.png" />
   </picture>
 </p>
 
