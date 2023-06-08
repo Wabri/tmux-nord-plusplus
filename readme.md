@@ -61,7 +61,14 @@ Thanks to existing plugin managers for tmux, Nord tmux can be installed for all 
 
 To automatically download and activate Nord tmux, follow the install instructions for [tpm][gh-tmux-plugins/tpm] and
 
-1. add `set -g @plugin "wabri/tmux-nord-plusplus"` to your [`tmux.conf`][tmux-man-tmux.conf], by default `.tmux.conf` located in your [home directory][wiki-home_dir]
+1. add 
+  ```
+  set -g @plugin "tmux-plugins/tmux-battery"
+  set -g @plugin "olimorris/tmux-pomodoro-plus"
+  set -g @plugin "wabri/tmux-nord-plusplus"
+  ``` 
+  to your [`tmux.conf`][tmux-man-tmux.conf], by default `.tmux.conf` located in your [home directory][wiki-home_dir]
+
 2. press the default key binding `prefix` + <kbd>I</kbd> to fetch- and install the plugin
 
 <p align="center">
