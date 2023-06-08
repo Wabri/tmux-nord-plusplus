@@ -42,9 +42,7 @@
 <p align="center">Designed for a fluent and clear workflow based on the <a href="https://www.nordtheme.com" target="_blank">Nord</a> color palette.</p>
 
 <p align="center">
-  <a href="https://www.nordtheme.com/ports/tmux" target="_blank">
-    <img src="screen.png"/>
-  </a>
+  <img src="screen.png"/>
 </p>
 
 ## Getting Started
@@ -67,9 +65,7 @@ To automatically download and activate Nord tmux, follow the install instruction
 2. press the default key binding `prefix` + <kbd>I</kbd> to fetch- and install the plugin
 
 <p align="center">
-  <picture>
-    <img src="screen2.png" />
-  </picture>
+  <img src="screen2.png"/>
 </p>
 
 See the Nord tmux's documentation for [more installation options][nord-docs-home-install] and how to [set it up manually][nord-docs-home-install#manual].
